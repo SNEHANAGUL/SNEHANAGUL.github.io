@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+}
+
+#tableSection {
+	font-size: 1.1em;
+}
+
+#tableSection table {
+	background-color: rgb(255, 255, 255);
+}
+
+#tableSection table,
+#tableSection td,
+#tableSection th {
+	border: 1px solid;
+}
+
+#tableSection th {
+	cursor: pointer;
+	color: rgb(20, 26, 30);
+	border-color: rgb(235, 228, 228);
+}
+body {
+	background-image: url(./images/1.jpg);
+	backface-visibility: hidden;
+}
